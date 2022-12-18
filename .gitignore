@@ -4,3 +4,4 @@ tools
 */.ipynb_checkpoints/*
 .venv/
 .pdm.toml
+Deep-Learning-with-PyTorch.pdf
