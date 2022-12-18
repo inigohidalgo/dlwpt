@@ -2,4 +2,5 @@
 tools
 *_old
 */.ipynb_checkpoints/*
-
+.venv/
+.pdm.toml
