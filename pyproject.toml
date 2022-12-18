@@ -5,7 +5,15 @@ description = "Deep Learning with PyTorch Code"
 authors = [
     {name = "inigohidalgo", email = "inigohrey@gmail.com"},
 ]
-dependencies = ["torch", "torchvision", "torchaudio", "ipykernel", "numpy", "pillow", "matplotlib", "imageio", "pandas"]
+dependencies = [
+    "torch",
+    "ipykernel",
+    "numpy",
+    "pillow",
+    "matplotlib",
+    "imageio",
+    "pandas"
+    ]
 requires-python = ">=3.10"
 license = {text = "MIT"}
 
