@@ -16,7 +16,7 @@ from torch.utils.data import DataLoader
 
 from util.util import enumerateWithEstimate
 from p2ch13.dsets import Luna2dSegmentationDataset, TrainingLuna2dSegmentationDataset, getCt
-from util.logconf import logging
+from dlwpt.util.logconf import logging
 from util.util import xyz2irc
 from p2ch13.model_seg import UNetWrapper, SegmentationAugmentation
 from p2ch13.train_seg import LunaTrainingApp

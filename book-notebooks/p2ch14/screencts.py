@@ -10,7 +10,7 @@ from torch.utils.data import Dataset, DataLoader
 
 from util.util import enumerateWithEstimate, prhist
 from .dsets import getCandidateInfoList, getCtSize, getCt
-from util.logconf import logging
+from dlwpt.util.logconf import logging
 # from .model import LunaModel
 
 log = logging.getLogger(__name__)

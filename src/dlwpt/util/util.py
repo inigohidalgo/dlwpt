@@ -7,7 +7,7 @@ import time
 # import torch
 import numpy as np
 
-from util.logconf import logging
+from dlwpt.util.logconf import logging
 log = logging.getLogger(__name__)
 # log.setLevel(logging.WARN)
 # log.setLevel(logging.INFO)
@@ -300,3 +300,9 @@ def enumerateWithEstimate(
 #     plt.register_cmap(name='maskinvert', data=cdict)
 # except ImportError:
 #     pass
+
+
+# my code
+
+def view_tensor(tensor):
+    return tensor.shape, tensor.stride()

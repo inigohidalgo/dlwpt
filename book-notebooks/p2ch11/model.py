@@ -2,7 +2,7 @@ import math
 
 from torch import nn as nn
 
-from util.logconf import logging
+from dlwpt.util.logconf import logging
 
 log = logging.getLogger(__name__)
 # log.setLevel(logging.WARN)

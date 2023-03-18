@@ -18,7 +18,7 @@ from torch.utils.data import DataLoader
 
 from util.util import enumerateWithEstimate
 from .dsets import Luna2dSegmentationDataset, TrainingLuna2dSegmentationDataset, getCt
-from util.logconf import logging
+from dlwpt.util.logconf import logging
 from .model import UNetWrapper, SegmentationAugmentation
 
 log = logging.getLogger(__name__)

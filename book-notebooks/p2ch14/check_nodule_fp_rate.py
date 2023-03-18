@@ -22,7 +22,7 @@ from p2ch14.dsets import LunaDataset
 from p2ch13.model import UNetWrapper
 from p2ch14.model import LunaModel
 
-from util.logconf import logging
+from dlwpt.util.logconf import logging
 from util.util import xyz2irc, irc2xyz
 
 log = logging.getLogger(__name__)

@@ -6,7 +6,7 @@ import torch
 from torch import nn as nn
 import torch.nn.functional as F
 
-from util.logconf import logging
+from dlwpt.util.logconf import logging
 from util.unet import UNet
 
 log = logging.getLogger(__name__)

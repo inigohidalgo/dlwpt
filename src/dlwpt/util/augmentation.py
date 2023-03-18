@@ -10,7 +10,7 @@ from torch.autograd import Function
 from torch.autograd.function import once_differentiable
 import torch.backends.cudnn as cudnn
 
-from util.logconf import logging
+from dlwpt.util.logconf import logging
 log = logging.getLogger(__name__)
 # log.setLevel(logging.WARN)
 # log.setLevel(logging.INFO)

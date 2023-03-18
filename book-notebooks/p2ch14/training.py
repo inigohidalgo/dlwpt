@@ -19,7 +19,7 @@ import p2ch14.dsets
 import p2ch14.model
 
 from util.util import enumerateWithEstimate
-from util.logconf import logging
+from dlwpt.util.logconf import logging
 
 
 log = logging.getLogger(__name__)

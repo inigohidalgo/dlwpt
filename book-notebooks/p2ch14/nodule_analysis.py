@@ -20,7 +20,7 @@ from p2ch13.model import UNetWrapper
 
 import p2ch14.model
 
-from util.logconf import logging
+from dlwpt.util.logconf import logging
 from util.util import xyz2irc, irc2xyz
 
 log = logging.getLogger(__name__)

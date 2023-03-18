@@ -16,7 +16,7 @@ from torch.utils.data import Dataset
 
 from util.disk import getCache
 from util.util import XyzTuple, xyz2irc
-from util.logconf import logging
+from dlwpt.util.logconf import logging
 
 log = logging.getLogger(__name__)
 # log.setLevel(logging.WARN)
